@@ -1,0 +1,65 @@
+/* SLIDER */
+.slider {
+  position: relative;
+  width: $page-width;
+  height: 470px;
+  margin: 40px auto 0;
+  background: url(../img/slider.jpg);
+  background-position: 0 0;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.slider__header {
+  position: absolute;
+  left: 35px;
+  width: auto;
+  padding: 0 35px 0 25px;
+  font-size: 54px;
+  font-weight: 500;
+  background: rgba(26, 26, 26, .9);
+}
+.slider__header--h1 {
+  top: 230px;
+  padding-top: 25px;
+  color: #f4b60d;
+}
+.slider__header--h2 {
+  top: 309px;
+  padding-right: 44px;
+  color: #fff;
+}
+.slider__header--h3 {
+  top: 363px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.slider__header--block {
+  top: 348px;
+  left: 247px;
+  width: 30px;
+  height: 15px;
+}
+.slider__nav {
+  position: absolute;
+  top: 435px;
+  left: 50%;
+  width: 76px;
+  margin-left: -38px;
+}
+.slider__btn {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 11px;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.slider__btn--3 {
+  margin-right: 0;
+}
+.slider__btn--active {
+  border: 3px solid #fff;
+  background: #000;
+}

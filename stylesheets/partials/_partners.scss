@@ -1,0 +1,40 @@
+.partners {
+  width: 1095px;
+  height: 62px;
+  margin: 85px auto 0;
+}
+.partners__item {
+  float: left;
+  height: 62px;
+  background: url('../img/partners.png') no-repeat;
+  cursor: pointer;
+}
+.partners__item--1 {
+  width: 119px;
+  margin-right: 45px;
+  background-position: 0 0;
+}
+.partners__item--2 {
+  width: 143px;
+  margin-right: 65px;
+  background-position: -166px 0;
+}
+.partners__item--3 {
+  width: 184px;
+  margin-right: 45px;
+  background-position: -373px 0;
+}
+.partners__item--4 {
+  width: 143px;
+  margin-right: 58px;
+  background-position: -604px 0;
+}
+.partners__item--5 {
+  width: 143px;
+  margin-right: 35px;
+  background-position: -806px 0;
+}
+.partners__item--6 {
+  width: 112px;
+  background-position: -985px 0;
+}

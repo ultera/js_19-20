@@ -1,0 +1,49 @@
+.service {
+  clear: both;
+  height: 500px;
+  margin-top: 100px;
+  background: #2a2d32;
+}
+.service__container {
+  width: $page-width;
+  height: 500px;
+  margin: 0 auto;
+}
+.service__header {
+  height: 120px;
+  line-height: 120px;
+  color: #fff;
+  font-size: 24px;
+}
+.service__item {
+  float: left;
+  width: 260px;
+  height: 380px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.service__title {
+  margin-top: 290px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.service__item:hover {
+  .service__title {
+    color: #f4b60d;
+  }
+}
+.service__item--1 {
+  background: url(../img/service-1.jpg) no-repeat;
+}
+.service__item--2 {
+  background: url(../img/service-2.jpg) no-repeat;
+}
+.service__item--3 {
+  background: url(../img/service-3.jpg) no-repeat;
+}
+.service__item--4 {
+  margin-right: 0;
+  background: url(../img/service-4.jpg) no-repeat;
+}
